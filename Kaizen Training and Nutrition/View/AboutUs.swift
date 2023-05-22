@@ -52,7 +52,7 @@ struct AboutUs: View {
                             Spacer()
                                 .frame(height: 40)
                             
-                            Text("The Commitment:")
+                            Text("Commitment:")
                                 .font(.title)
                                 .fontWeight(.bold)
                             
