@@ -42,7 +42,7 @@ struct AboutUs: View {
                             .frame(height: 50)
                         
                         
-                            Text("The Mission:")
+                            Text("Mission:")
                                 .font(.title)
                                 .fontWeight(.bold)
                             
