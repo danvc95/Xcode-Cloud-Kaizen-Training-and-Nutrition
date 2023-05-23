@@ -35,9 +35,9 @@ struct MainMenu: View {    //Selected Tab..
 
         }
         //.padding()
-        .padding(.top, 14)
+        .padding(.top, 1)
         //.preferredColorScheme(.dark)
-        .padding(.bottom, 40)
+        .padding(.bottom, 0)
         .background(Color("blue"))
         
         

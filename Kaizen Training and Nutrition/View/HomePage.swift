@@ -40,7 +40,7 @@ struct HomePage: View {
                     
                     HStack(spacing: 70){
                         
-                        Button( action: {selectedTab = "Settings"}
+                        Button( action: {selectedTab = "Walking"}
                             
                         , label: {
                             Image(systemName: "figure.walk.circle")
@@ -49,14 +49,15 @@ struct HomePage: View {
                                 .foregroundColor(.white)
                             })
                         
-                        Button {
+                        Button ( action: {selectedTab = "Eating"}
+                         ,
                             
-                        } label: {
+                         label: {
                             Image(systemName: "fork.knife.circle")
                                 .resizable()
                                 .frame(width: getRect().width - 300, height: 90)
                                 .foregroundColor(.white)
-                        }
+                        })
                         
                         
                         
@@ -77,23 +78,23 @@ struct HomePage: View {
                     
                     HStack(spacing: 70){
                         
-                        Button {
-                            
-                        } label: {
+                        Button ( action: {selectedTab = "Sleeping"}
+                                 
+                                 , label: {
                             Image(systemName: "bed.double.circle")
                                 .resizable()
                                 .frame(width: getRect().width - 300, height: 90)
                                 .foregroundColor(.white)
-                        }
+                        })
                         
-                        Button {
-                            
-                        } label: {
+                        Button ( action: {selectedTab = "Drinking"}
+                                 
+                                 , label: {
                             Image(systemName: "drop.circle")
                                 .resizable()
                                 .frame(width: getRect().width - 300, height: 90)
                                 .foregroundColor(.white)
-                        }
+                        })
                         
                         
                         

@@ -22,7 +22,8 @@ struct SideMenu: View {
             // Side Menu...
             
             VStack(alignment: .trailing, spacing: 15, content: {
-                
+                Spacer()
+                    .frame(height: 10)
                 //Profile Pic
                 Image("Kaizen Logo")
                     .resizable()

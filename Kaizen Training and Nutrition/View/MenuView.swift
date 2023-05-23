@@ -68,6 +68,8 @@ struct MainView: View {
             
             //Animated Drawer Button..
             VStack(spacing: 8){
+                Spacer()
+                    .frame(height: 30)
                 Capsule()
                     .fill(showMenu ? Color.black : Color.primary)
                     .frame(width: 40, height: 3)
@@ -135,13 +137,16 @@ struct MainView: View {
             }, label: {
             
             //Animated Drawer Button..
-            
-                Capsule()
-                    .fill()
-                    .frame(width: 70, height: 70 )
+                VStack(){
                     
-                // Rotating...
+                    Spacer()
+                        .frame(height: 40)
+                    Capsule()
+                        .fill()
+                        .frame(width: 70, height: 70 )
                     
+                    // Rotating...
+                }
                   
                     .opacity(0.0)
             })
@@ -151,7 +156,8 @@ struct MainView: View {
         }
         
          MainMenu(selectedTab: $selectedTab)
-
+            Spacer()
+                .frame(height: 80)
         }
     }
 }

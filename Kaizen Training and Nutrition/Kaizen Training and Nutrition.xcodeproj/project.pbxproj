@@ -11,6 +11,10 @@
 		68531CFC2A15A88F002BEA47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68531CFB2A15A88F002BEA47 /* ContentView.swift */; };
 		68531CFE2A15A891002BEA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68531CFD2A15A891002BEA47 /* Assets.xcassets */; };
 		68531D012A15A891002BEA47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68531D002A15A891002BEA47 /* Preview Assets.xcassets */; };
+		687DCDE52A1C495500A21114 /* Walking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DCDE42A1C495500A21114 /* Walking.swift */; };
+		687DCDE72A1C51B900A21114 /* Drinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DCDE62A1C51B900A21114 /* Drinking.swift */; };
+		687DCDE92A1C51C500A21114 /* Eating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DCDE82A1C51C500A21114 /* Eating.swift */; };
+		687DCDEB2A1C51D200A21114 /* Sleeping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687DCDEA2A1C51D200A21114 /* Sleeping.swift */; };
 		68F60D3D2A19B261007453CE /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F60D3C2A19B261007453CE /* CustomCorners.swift */; };
 		68F60D3F2A19B278007453CE /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F60D3E2A19B278007453CE /* TabButton.swift */; };
 		68F60D412A19B28B007453CE /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F60D402A19B28B007453CE /* SideMenu.swift */; };
@@ -35,6 +39,10 @@
 		68531CFB2A15A88F002BEA47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68531CFD2A15A891002BEA47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68531D002A15A891002BEA47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		687DCDE42A1C495500A21114 /* Walking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walking.swift; sourceTree = "<group>"; };
+		687DCDE62A1C51B900A21114 /* Drinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinking.swift; sourceTree = "<group>"; };
+		687DCDE82A1C51C500A21114 /* Eating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eating.swift; sourceTree = "<group>"; };
+		687DCDEA2A1C51D200A21114 /* Sleeping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sleeping.swift; sourceTree = "<group>"; };
 		68F60D3C2A19B261007453CE /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		68F60D3E2A19B278007453CE /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		68F60D402A19B28B007453CE /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
@@ -119,6 +127,10 @@
 				68F60D562A19B315007453CE /* ViewProfile.swift */,
 				68F60D582A19B31D007453CE /* Help.swift */,
 				68F60D5A2A19B326007453CE /* Videos.swift */,
+				687DCDE42A1C495500A21114 /* Walking.swift */,
+				687DCDE62A1C51B900A21114 /* Drinking.swift */,
+				687DCDE82A1C51C500A21114 /* Eating.swift */,
+				687DCDEA2A1C51D200A21114 /* Sleeping.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,8 +208,12 @@
 				68F60D452A19B2AD007453CE /* MenuView.swift in Sources */,
 				68F60D492A19B2C3007453CE /* HomePage.swift in Sources */,
 				68F60D4D2A19B2D9007453CE /* Controller.swift in Sources */,
+				687DCDE92A1C51C500A21114 /* Eating.swift in Sources */,
+				687DCDE72A1C51B900A21114 /* Drinking.swift in Sources */,
 				68531CFC2A15A88F002BEA47 /* ContentView.swift in Sources */,
+				687DCDE52A1C495500A21114 /* Walking.swift in Sources */,
 				68F60D532A19B301007453CE /* Settings.swift in Sources */,
+				687DCDEB2A1C51D200A21114 /* Sleeping.swift in Sources */,
 				68F60D3F2A19B278007453CE /* TabButton.swift in Sources */,
 				68F60D432A19B296007453CE /* MenuButton.swift in Sources */,
 				68F60D512A19B2F9007453CE /* Messages.swift in Sources */,

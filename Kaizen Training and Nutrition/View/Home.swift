@@ -33,20 +33,31 @@ struct Home: View {
             Settings()
                 .tag("Settings")
             
-            Controller()
-                .tag("Controller")
-            
             Help()
                 .tag("Help")
             
             Messages()
                 .tag("Messages")
             
-            ViewProfile()
-                .tag("ViewProfile")
+           
             
             AboutUs()
                 .tag("About Us")
+            
+            Walking()
+                .tag("Walking")
+            
+            Drinking()
+                .tag("Drinking")
+            
+            Eating()
+                .tag("Eating")
+            
+            Sleeping()
+                .tag("Sleeping")
+            
+            
+            
             
         }
     }

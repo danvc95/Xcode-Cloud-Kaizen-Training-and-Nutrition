@@ -36,8 +36,8 @@ struct MenuButton: View {
             }
             .foregroundColor(selectedTab == title ?
                              Color("blue") : .white)
-            .padding(.vertical, 11)
-            .padding(.horizontal, 14)
+            .padding(.vertical, 16)
+            .padding(.horizontal, 10)
             
             // Max Frame...
             .frame(maxWidth: getRect().width, alignment: .center)
